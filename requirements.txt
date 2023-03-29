@@ -1,2 +1,4 @@
 openai_secret_manager
 openai
+decouple
+python-dotenv
