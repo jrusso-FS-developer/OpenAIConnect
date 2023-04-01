@@ -7,6 +7,7 @@ This is the first iteration of the application OpenAIConnect. Developed as a POC
         ```python -m venv /path/to/new/virtual/environment```
 3. 
 
-# TECH DETAILS
-1. Language: Python 3.11
-2. 
+# Details/Notes
+1. Developer: Justin P. Russo
+2. Inception: 4/1/2023
+3. Language: Python 3.11
