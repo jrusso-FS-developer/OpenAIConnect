@@ -1,5 +1,5 @@
 # ReadMe Documentation for OpenAIConnect 1.0
-This is the first iteration of the application OpenAIConnect. Developed as a POC/Demo application, in the Python programming language, this app explores the new possibilities/capabilities of the OpenAI library and AI engines.
+This is the first iteration of the application OpenAIConnect. Developed as a POC/Demo application, in the Python programming language, this app explores the new possibilities/capabilities of the OpenAI library and AI engines.  Future iterations will integrate this code into a Web API controller, and/or a front end website such as React/Angular, etc...
 
 ## Clone Repo 
 1. Open the terminal in VSCode, or your favorite GUI, and navigate to the folder you wish to clone the repo to.
