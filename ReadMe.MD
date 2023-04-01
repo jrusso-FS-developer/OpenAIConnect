@@ -4,13 +4,15 @@ This is the first iteration of the application OpenAIConnect. Developed as a POC
 ## Clone Repo 
 ![image](https://user-images.githubusercontent.com/13722805/229315511-b7e7aa20-80d6-46a3-a244-e05d1a0de2ed.png)
 
-# De-bugging
+## De-bugging
 1. Open the root folder containing the repo for this project, in VSCode, or a GUI of your choice Ie. PyCharm, Sublime, etc...
 2. In VSCode, open a terminal, and enter the following command to create a virtual environment in the root folder. 
         ```python -m venv /path/to/new/virtual/environment```
-3. 
+3. In the same terminal, now enter ```/path/to/new/virtual/environment/Scripts/activate``` to activate your new virtual environment.
+4. With the virtual environment activated, now enter the following command to run the application.  ```python app.py```
+5. In the terminal you will now be prompted to ask OpenAI something.  Have Fun!!!
 
-# Details/Notes
+## Details/Notes
 1. Developer: Justin P. Russo
 2. Inception: 4/1/2023
 3. Language: Python 3.11
