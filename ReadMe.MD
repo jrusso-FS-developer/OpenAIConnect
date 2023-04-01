@@ -2,6 +2,8 @@
 This is the first iteration of the application OpenAIConnect. Developed as a POC/Demo application, in the Python programming language, this app explores the new possibilities/capabilities of the OpenAI library and AI engines.
 
 ## Clone Repo 
+1. Open the terminal in VSCode, or your favorite GUI, and navigate to the folder you wish to clone the repo to.
+2. Enter the following to clone the repo, ```git clone https://github.com/jrusso-FS-developer/OpenAIConnect.git```
 ![image](https://user-images.githubusercontent.com/13722805/229315511-b7e7aa20-80d6-46a3-a244-e05d1a0de2ed.png)
 
 ## De-bugging
