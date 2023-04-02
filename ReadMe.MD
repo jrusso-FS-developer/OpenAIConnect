@@ -18,4 +18,4 @@ This is the first iteration of the application OpenAIConnect. Developed as a POC
 ## Details/Notes
 1. Developer: Justin P. Russo
 2. Inception: 4/1/2023
-3. Language: Python 3.11
+3. Language/Version: Python 3.11.2
