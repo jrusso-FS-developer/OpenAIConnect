@@ -18,15 +18,14 @@ try:
     while prompt != '2': 
         print("***********************************")
         print("**********OPENAI SEARCH************")
-        print("***********************************")
-        print("")
+        print("***********************************\n\n")
         
         prompt = input("Ask OpenAI something (1=cls, 2=end): ")
         
         if prompt == '1':
             os.system('cls')    
         elif (prompt != '2' and prompt != '1'):
-            response = openai.Completion.create(engine="text-davinci-003", prompt=prompt, temperature=1, max_tokens=200)
+            response = openai.Completion.create(engine="text-davinci-003", prompt=prompt, temperature=1, max_tokens=2000)
             
             print(f"\nresponse: {response.choices[0].text}")
             print("")
