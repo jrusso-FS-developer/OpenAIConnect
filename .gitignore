@@ -1,4 +1,4 @@
 .env
 .env.*
 
-/openaiconnect-env
+/openai_connect_env

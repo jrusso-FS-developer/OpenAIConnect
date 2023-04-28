@@ -18,8 +18,7 @@ try:
     while prompt != '2': 
         print("***********************************")
         print("**********OPENAI SEARCH************")
-        print("***********************************")
-        print("")
+        print("***********************************\n\n")
         
         prompt = input("Ask OpenAI something (1=cls, 2=end): ")
         
