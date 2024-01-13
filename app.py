@@ -35,7 +35,7 @@ try:
                         "content": prompt
                     }
                 ],
-                model="./"
+                model="gpt-3.5-turbo"
             )
             
             print(f"\nresponse: {response.choices[0].message.content}")
