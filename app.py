@@ -1,4 +1,4 @@
-import openai
+from openai import OpenAI
 import json
 import os
 from dotenv import load_dotenv
@@ -11,7 +11,10 @@ os.system('cls')
 
 # get OpenAI API credentials
 try:
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    client = OpenAI(
+        # This is the default and can be omitted
+        api_key=os.getenv("OPENAI_SECRET_KEY")
+    )
     
     prompt = ''
     
@@ -25,9 +28,17 @@ try:
         if prompt == '1':
             os.system('cls')    
         elif (prompt != '2' and prompt != '1'):
-            response = openai.Completion.create(engine="text-davinci-003", prompt=prompt, temperature=1, max_tokens=2000)
+            response = client.chat.completions.create(
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                model="./"
+            )
             
-            print(f"\nresponse: {response.choices[0].text}")
+            print(f"\nresponse: {response.choices[0].message.content}")
             print("")
         
     print(f"OpenAI discussion ended.")
