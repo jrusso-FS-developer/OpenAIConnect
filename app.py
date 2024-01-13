@@ -13,8 +13,10 @@ os.system('cls')
 try:
     client = OpenAI(
         # This is the default and can be omitted
-        api_key=os.getenv("OPENAI_SECRET_KEY")
+        api_key=os.getenv("OPENAI_SECRET_FUCKING_KEY")
     )
+
+    print(f"key: ${os.getenv("OPENAI_SECRET_FUCKING_KEY")}")
     
     prompt = ''
     
